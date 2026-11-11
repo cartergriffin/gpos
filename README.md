@@ -2,7 +2,7 @@
 
 PowerShell module for searching every setting in every Active Directory Group Policy Object, by setting name, value, GPO name, or the exact path GPMC shows (`Policies > Windows Settings > Security Settings > Public Key Policies/...`).
 
-It works from an offline JSON snapshot of the domain's GPO reports. Paths and display text come from Windows' own GPMC report engine (`Microsoft.GroupPolicy.Reporting.dll`), which renders each setting one at a time, so there are no hand-written mapping tables. The write-up is here: [Searching every GPO by the path GPMC shows you](https://cartergriffin.github.io/blog/2026/11/11/searching-every-gpo-by-gpmc-path/).
+It works from an offline JSON snapshot of the domain's GPO reports. Paths and display text come from Windows' own GPMC report engine (`Microsoft.GroupPolicy.Reporting.dll`), which renders each setting one at a time, so there are no hand-written mapping tables. The write-up is here: [Searching every GPO by the path GPMC shows you](https://blog.grifflab.org/2026/11/11/searching-every-gpo-by-gpmc-path/).
 
 ## Requirements
 
